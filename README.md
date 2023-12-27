@@ -1,35 +1,37 @@
-# pokedex-app
+# Aplicación Pokedex
 
-This template should help get you started developing with Vue 3 in Vite.
+Listado de pokémons Favoritos
 
-## Recommended IDE Setup
+## IDE recomendada
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) 
 
-## Customize configuration
+ ## Tecnologías Utilizadas
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue.js 3
+- Vue Router
+- Tailwind CSS
+- Axios
+- Pinia
 
-## Project Setup
+## Configuración del Proyecto
 
-```sh
-npm install
+ 
+Para clonar y ejecutar esta aplicación, necesitará Git y Node.js (que viene con npm) instalados en su computadora. Desde su línea de comando:
+
+
+```bash
+# Clone this repository
+$ git clone https://github.com/ariel4100/pokedex-vue.git
+
+# Go into the repository
+$ cd pokedex-vue
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run dev
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+ 
